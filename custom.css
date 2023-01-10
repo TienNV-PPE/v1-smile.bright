@@ -1,0 +1,38 @@
+.logo img{
+  align-self: center;
+}
+.navbar-collapse{
+  justify-content: end;
+}
+.hero{
+  background-color: #EDF8FF;
+}
+.object-fit-cover{
+  object-fit: cover;
+}
+
+.hero-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+
+}
+.social-icons a{
+  margin: 0 2px;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+align-items: center;
+}
+.custom-divider::before, .custom-divider::after {
+  content: "";
+  width: 200px;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  margin: 0 5px;
+}
