@@ -4,7 +4,7 @@
 .navbar-collapse{
   justify-content: end;
 }
-.hero{
+.bg-custom-blue, .hero{
   background-color: #EDF8FF;
 }
 .object-fit-cover{
@@ -35,4 +35,20 @@ align-items: center;
   border-bottom: 1px solid #ccc;
   display: block;
   margin: 0 5px;
+}
+/* marquee */
+.my-teams figure, marquee figure{
+  display: inline-block;
+  margin: 0 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+marquee figure img{
+max-width: 60px;
+}
+form.ket-noi-form .form-group{
+margin-top: 1rem;
+}
+footer{
+  margin-top: 5em;
 }

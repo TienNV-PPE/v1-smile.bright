@@ -263,25 +263,204 @@
               </section>
             </div>
             <div class="col-12">
-              <marquee width="100%" direction="left">
-                <figure>
-                  <img
-                    src="https://via.placeholder.com/100"
-                    class="rounded-circle"
-                  />
-                  <figcaption>
-                    Fig.1 - Trulli, Puglia, Italy.
-                  </figcaption>
-                </figure>
+              <marquee
+                width="100%"
+                direction="left"
+                x-data="{ colors: [...Array(20)] }"
+              >
+                <template x-for="color in colors">
+                  <figure>
+                    <img
+                      src="assets/images/branchs/1.png"
+                      class="rounded-circle"
+                    />
+                    <figcaption>Pepsi</figcaption>
+                  </figure>
+                </template>
               </marquee>
+            </div>
+
+            <div class="col-6 my-teams d-flex justify-content-center">
+              <figure class="text-center">
+                <img
+                  src="https://via.placeholder.com/60"
+                  class="rounded-circle"
+                />
+                <figcaption>Sơn Trần Văn</figcaption>
+              </figure>
+              <figure class="text-center">
+                <img
+                  src="https://via.placeholder.com/60"
+                  class="rounded-circle"
+                />
+                <figcaption>Trần Vinh</figcaption>
+              </figure>
+              <figure class="text-center">
+                <img
+                  src="https://via.placeholder.com/60"
+                  class="rounded-circle"
+                />
+                <figcaption>Trường Đặng</figcaption>
+              </figure>
+              <figure class="text-center">
+                <img
+                  src="https://via.placeholder.com/60"
+                  class="rounded-circle"
+                />
+                <figcaption>TienIT.vn</figcaption>
+              </figure>
+              <figure class="text-center">
+                <img
+                  src="https://via.placeholder.com/60"
+                  class="rounded-circle"
+                />
+                <figcaption>TienIT.vn</figcaption>
+              </figure>
+              <figure class="text-center">
+                <img
+                  src="https://via.placeholder.com/60"
+                  class="rounded-circle"
+                />
+                <figcaption>TienIT.vn</figcaption>
+              </figure>
             </div>
           </div>
         </div>
       </section>
-    </main>
+      <!-- ket-noi-voi-smile-bright -->
+      <section class="mt-5">
+        <div class="container">
+          <div class="row g-3 justify-content-center">
+            <div class="col-12 text-center">
+              <h3 class="text-uppercase">
+                KẾT NỐI VỚI SMILE BRIGHT
+              </h3>
+              <section
+                class="d-flex justify-content-center align-items-center text-secondary"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center custom-divider"
+                >
+                  &#9675;
+                </div>
+              </section>
+            </div>
 
-    <h1>Hello, world!</h1>
-    <button type="button" class="btn btn-primary">Primary</button>
+            <div
+              class="col-12 col-lg-5 text-center hero-right text-primary p-4 bg-custom-blue"
+            >
+            <img
+            src="https://via.placeholder.com/1000"
+            class="rounded-circle w-50 mx-auto mb-2"
+          />
+                        <h4>CONTACT TO SMILE BRIGHT</h4>
+              <div class="social-icons mt-2">
+                <!-- Facebook -->
+                <a
+                  style="color: #3b5998"
+                  href="#!"
+                  role="button"
+                  class="btn btn-outline-primary rounded-circle"
+                  ><i class="fab fa-facebook-f fa-lg"></i
+                ></a>
+
+                <!-- Twitter -->
+                <a
+                  style="color: #55acee"
+                  href="#!"
+                  role="button"
+                  class="btn btn-outline-primary rounded-circle"
+                  ><i class="fab fa-twitter fa-lg"></i
+                ></a>
+
+                <!-- Google -->
+                <a
+                  style="color: #dd4b39"
+                  href="#!"
+                  role="button"
+                  class="btn btn-outline-primary rounded-circle"
+                  ><i class="fab fa-google fa-lg"></i
+                ></a>
+
+                <!-- Instagram -->
+                <a
+                  style="color: #ac2bac"
+                  href="#!"
+                  role="button"
+                  class="btn btn-outline-primary rounded-circle"
+                  ><i class="fab fa-instagram fa-lg"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="col-12 col-lg-7 "
+            >
+            <form class="ket-noi-form m-3">
+
+              <div class="form-row g-3">
+
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Nội dung</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Vui lòng nhập"></textarea>
+                </div>
+                <div class="form-group col-12">
+                <label for="exampleInputEmail1">Tên của bạn</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Vui lòng nhập">
+              </div>
+
+              <div class="form-group col-12">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Vui lòng nhập">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">Số điện thoại</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Vui lòng nhập">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Tỉnh thành</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Quảng Bình</option>
+                  <option>Đà Nẵng</option>
+                  <option>Quảng Ngãi</option>
+                </select>
+              </div>
+              <div class="form-group">
+
+              <button type="submit" class="btn btn-primary">Gửi</button>
+            </div>
+          </div>
+        </form>
+          </div>
+          <div class="col-12 text-center">
+           <h4 class="mt-3">TRẢI NGHIỆM ĐỂ THÀNH CÔNG CÙNG "SMILE BRIGHT"</h4>
+          </div>
+      </section>
+    </main>
+    <footer class="bg-custom-blue ">
+      <div class="row g-3 justify-content-center">
+        <div class="col-12 col-lg-3 text-center">
+          <figure>
+            <img
+
+              src="https://via.placeholder.com/600"
+              class="rounded-circle w-50"
+            />
+            <figcaption class="lead">SMILE BRIGHT</figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-lg-8 lead text-center text-lg-start">
+          Công ty TNHH SMILE BRIGHT<br/>
+          Địa chỉ: ---<br/>
+          SĐT: 0344.--<br/>
+          Số tài khoản: xxx<br/>
+          Tại ngân hàng: xxx<br/>
+          Tên CK: Thái Thảo
+        </div>
+        </div>
+    </footer>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
