@@ -1,3 +1,3 @@
 # project v1-smile.bright
 
-Họcập tr tại: https://tienit.vn
+Học lập trình web tại: https://tienit.vn
